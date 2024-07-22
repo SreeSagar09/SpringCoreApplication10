@@ -53,7 +53,8 @@ public class AppConfig {
 		return notesProperties;
 	}
 	
-	@Bean Products getProducts() {
+	@Bean 
+	Products getProducts() {
 		Products products = new Products(getNamesLsit(), getModelsSet(), getPriceMap(), getNotesProperties());
 		
 		return products;
