@@ -1,0 +1,20 @@
+Simple Program to show how to configure spring beans using Java file and constructor dependency injection, Collection type as a dependency:
+Programs:
+* Products.java
+* AppConfig.java
+* Test.java
+Output:
+---------BeanDefinitionNames---------
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+appConfig
+getNamesLsit
+getModelsSet
+getPriceMap
+getNotesProperties
+getProducts
+---------Products Bean---------
+Products [names=[IPhone, Oppo], models=[15Pro, OP13], price={IPhone=1200.0, Oppo=1000.0}, notes={3=Bad, 2=Good, 1=Very Good}]
